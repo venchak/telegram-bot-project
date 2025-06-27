@@ -1,6 +1,8 @@
 
 from dotenv import load_dotenv
-import os
+importfrom telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from handlers.start import start as start_handler
+from handlers.help import help_commandos
 from database import init_db, SessionLocal, User
 
 init_db()
