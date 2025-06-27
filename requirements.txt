@@ -1,2 +1,4 @@
 python-dotenv
 SQLAlchemy
+python-telegram-bot==13.15
+
